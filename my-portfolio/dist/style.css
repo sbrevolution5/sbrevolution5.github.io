@@ -1,0 +1,72 @@
+*{margin:0;
+  padding:0;
+  font-family: 'Spectral';
+}
+section{
+  background-color:#191308  
+}
+#title{
+  font-size:72pt;
+  font-family: 'Spectral';
+  text-shadow: 4px 4px 4px #000;
+}
+#navbar {
+  background-color:#191308;
+  color:#454B66;
+  position:fixed;
+  top:0px;
+}
+#inquiries{
+  background-color: #322A26;
+}
+#allHeader{
+  font-size:40pt;
+}
+h1, h2, h3{
+  text-align: center;
+  font-family: 'Spectral';
+  text-shadow: 4px 4px 4px #000;
+}
+a{
+  color:#9CA3DB
+    
+}
+p{
+  font-size: 10pt;
+}
+#projectList{
+  text-align: center;
+}
+#welcome-section{
+  color:#9CA3DB;
+  display:flex;
+  width: 100%;
+  height: 100vh;
+  justify-content:center;
+  align-items:center;
+  background-color: #322A26
+}
+.projects-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 100%;
+}
+.project-header{
+  
+}
+.project-tile{
+  width: 200px;
+  height: 200px;
+  background-color:#454B66;
+  margin: auto;
+  align-items:center;
+  box-shadow: 10px 10px 10px #000;
+}
+
+@media(min-width:400px){
+  section{
+    color: #677DB7;
+  }
+}
